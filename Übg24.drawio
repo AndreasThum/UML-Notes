@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T17:53:07.196Z" agent="5.0 (Windows)" etag="Mxz0z34Y5Pezo1WyuOHw" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T21:33:29.798Z" agent="5.0 (Windows)" etag="N59rjLTKmjJffZ-2Q2s-" version="13.10.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,16 +29,16 @@
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- hauskatze: Bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- hausKatze: Bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="- anzahlleben: Int&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="- anzahlLeben: Int&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="52" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="78" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+Katze(groesse: Int, alter: Int, geschlecht: Char, &#xa;hauskatze: Bool, anzahlleben: Int)&#xa;+ sprich(miauen): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+Katze(groesse: Int, alter: Int, geschlecht: Char, &#xa;hausKatze: Bool, anzahlLeben: Int)&#xa;+ sprich(miauen): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="86" width="300" height="84" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
@@ -52,13 +52,13 @@
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="- hungrig: Bool&#xa;- jagdhund: Bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="- hungrig: Bool&#xa;- jagdHund: Bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="26" width="270" height="44" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="70" width="270" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="M5SLl3RUi6R99qq2Jxte-3" value="+ Hund(groesse: Int, alter: Int, geschlecht: Char, &lt;br&gt;hungrig: Bool, jaghdhund: Bool)&lt;div&gt;+ sprich(bellen): String&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="M5SLl3RUi6R99qq2Jxte-3" value="+ Hund(groesse: Int, alter: Int, geschlecht: Char, &lt;br&gt;hungrig: Bool, jaghdHund: Bool)&lt;div&gt;+ sprich(bellen): String&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="98" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--16" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
