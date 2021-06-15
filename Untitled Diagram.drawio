@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T16:56:48.116Z" agent="5.0 (Windows)" etag="mE6jIK-P-nmx-G_UDHaV" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T16:59:30.915Z" agent="5.0 (Windows)" etag="p7eMHpMjrJ0rvYErjQwC" version="14.7.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1182" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -117,6 +117,12 @@
         </mxCell>
         <mxCell id="NZrxK5xvlxKEMrbcHx-y-50" value="1...*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NZrxK5xvlxKEMrbcHx-y-51" value="&lt;div&gt;Glossar:&lt;/div&gt;&lt;div&gt;Jahr gibt das Kalenderjahr an&lt;br&gt;&lt;/div&gt;&lt;div&gt;Halbjahr beschreibt den Typ von Semester, Winter oder Sommer&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="415" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NZrxK5xvlxKEMrbcHx-y-52" value="&lt;div&gt;Studenten nehmen an beliebig vielen Übungsgruppen teil, &lt;br&gt;&lt;/div&gt;&lt;div&gt;aber nur an einer pro Vorlesung&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
